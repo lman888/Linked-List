@@ -2,6 +2,9 @@
 class LinkedList
 {
 public:
+
+	#pragma region Public Functions
+
 	LinkedList();
 	~LinkedList();
 
@@ -19,6 +22,9 @@ public:
 	void PopBack();
 	//Prints out the array
 	void Print();
+
+	#pragma endregion
+
 
 private:
 
